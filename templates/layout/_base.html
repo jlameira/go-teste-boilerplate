@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/public/favicon.ico">
+
+    <title>Gorilla Toolkit Boilerplate</title>
+    <!--MAterialize -->
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+    <!-- Bootstrap core CSS -->
+<!--    <link href="/public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/public/css/site.css" rel="stylesheet">-->
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="/public/css/materialize.min.css" media="screen,projection" />
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="container">
+    <nav>
+        <div class="nav-wrapper">
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="/signup">Signup</a></li>
+                <li><a href="/signin">Signin</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<!--    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/signup">Signup</a></li>
+                    <li><a href="/signin">Signin</a></li>
+                </ul>
+
+            </div>
+           
+        </div>
+    </div>-->
+
+    <div class="container">
+        {{ template "content" . }}
+    </div>
+    <!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/public/js/pmmg/_constantes.js"></script>
+    <script src="/public/js/pmmg/util.js"></script>
+    <script src="/public/js/pmmg/acao.js"></script>
+    <script src="/public/js/pmmg/auth.js"></script>
+    <script src="/public/js/pmmg/contexto.js"></script>
+    <script src="/public/js/pmmg/cookie.js"></script>
+    <script src="/public/js/pmmg/migalha.js"></script>
+    <script src="/public/js/pmmg/paginacao.js"></script>
+    <script src="/public/js/pmmg/crud.js"></script>
+    <script src="/public/js/pmmg/form.js"></script>
+    <script src="/public/js/pmmg/html.js"></script>
+    <script src="/public/js/pmmg/valida.js"></script>
+    <script src="/public/js/pmmg/mensagem.js"></script>
+    <script src="/public/js/pmmg/erro.js"></script>
+    <script src="/public/js/pmmg/inject.js"></script>
+    <script src="/public/js/pmmg/request.js"></script>
+    <script src="/public/js/pmmg/usuario.js"></script>
+    <script src="/public/js/pmmg/LocationHashDI.js"></script>
+    <script src="/public/js/pmmg/app.js"></script>
+    <script src="/public/js/site.js"></script>
+    <script src="/public/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/public/js/materialize.min.js"></script>
+</body>
+
+</html>
