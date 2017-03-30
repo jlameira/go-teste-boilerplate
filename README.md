@@ -11,7 +11,7 @@
     - "github.com/gorilla/mux"
 
  - 
-# User Guide
+# User Guide Golang
 Here are some resources you should check out if you are learning / new to Go:
 First you should take the language tour: http://tour.golang.org/
 
